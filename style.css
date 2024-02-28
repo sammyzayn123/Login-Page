@@ -1,0 +1,87 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    color:  #333;
+}
+
+.container2 h1{
+    font-family:"Lucida", Verdana, sans-serif;
+    
+}
+.container1 h1{
+    /* background: linear-gradient(blue,white,lightblue); */
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container1{
+    background-image: url(bgimage.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: inline-block;
+    /* padding: 30px; */
+    /* border: 10px solid whitesmoke; */
+}
+.container2{
+    
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: inline-block;
+    padding: 30px;
+    border: 10px solid whitesmoke;
+    border-radius: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    color: white;
+    flex-wrap: wrap;
+    font-weight: bold;
+        
+}
+.container1 h1{
+    text-align: center;
+    color: #fcfcfce3;
+    font-size: 40px;
+    font-family: "Pacifico", cursive;
+    /* -webkit-text-stroke: 0.03w white; */
+    /* background: linear-gradient(); */
+}
+.container1{
+    animation: bgimage  15s infinite ease-in-out;
+}
+
+@keyframes bgimage {
+    0% {
+        background-size: 100%;
+    }
+    50% {
+        background-size: 120%;
+    }
+    100%{
+        background-size: 100%;
+    }
+    
+}
+
+@media screen and (max-width:700px) {
+    .container1 h1{
+        text-align: center;
+        color: #fcfcfce3;
+        font-size: 20px;
+        font-family: "Pacifico", cursive;
+    }
+    
+}
